@@ -15,4 +15,5 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # '\W' adds the name of the current directory
 export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"
 
+# Edit this path to your own GA folder
 alias ga="cd ~/Documents/Education/General\ Assembly/"
